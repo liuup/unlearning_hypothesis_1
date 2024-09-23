@@ -1,12 +1,12 @@
 # unlearning_hypothesis_1
 
-本项目是对论文`Machine Unlearning Fails  to Remove Data Poisoning Attacks. ICML 2024 Spotlight`中`Section 6`, `Hypothesis 1`的另一个视角的证明实验。
+本项目是对论文`Machine Unlearning Fails to Remove Data Poisoning Attacks. ICML 2024 Spotlight`中`Section 6`, `Hypothesis 1`的另一个视角的证明实验。
 
 # 思路
 > Hypothesis 1: Poison samples cause a large model shift, which cannot be mitigated by approximate unlearning.  
 
 也就是说，毒害数据使得模型的偏移更大，而且没法用遗忘算法来缓和。作者在原论文的附录C中给出了一部分实验，但是我想用另一个视角来探讨毒害数据是否造成了比较大的模型偏移。  
-因此，受`Backdoor Federated Learning By Poisoning  Backdoor-Critical Layers. ICLR 2024`启发，我从模型间和层间分别对模型的偏移量进行测量。
+因此，受`Backdoor Federated Learning By Poisoning Backdoor-Critical Layers. ICLR 2024`启发，我从模型间和层间分别对模型的偏移量进行测量。
 
 
 # 实验设计
