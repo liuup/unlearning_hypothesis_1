@@ -42,5 +42,7 @@
 2. 使用余弦相似度来测量模型的偏移，这种方法的有效性还有得考量
 
 # What's Next
-遗忘+知识蒸馏，但似乎只考虑了线性层的最后一层，还没细看
-> Kim, Hyunjune, Sangyong Lee, and Simon S. Woo. "Layer Attack Unlearning: Fast and Accurate Machine Unlearning via Layer Level Attack and Knowledge Distillation." Proceedings of the AAAI Conference on Artificial Intelligence. Vol. 38. No. 19. 2024.
+1. 遗忘+知识蒸馏，但似乎只考虑了线性层的最后一层，还没细看 
+   > Kim, Hyunjune, Sangyong Lee, and Simon S. Woo. "Layer Attack Unlearning: Fast and Accurate Machine Unlearning via Layer Level Attack and Knowledge Distillation." Proceedings of the AAAI Conference on Artificial Intelligence. Vol. 38. No. 19. 2024.
+2. 测试GPT2的微调性能，
+3. 修改EUk和CFk，原始的算法是对最后k层进行训练，那按照本次实验的结果，可以尝试对偏移量最大的前k层进行EUk和CFk
